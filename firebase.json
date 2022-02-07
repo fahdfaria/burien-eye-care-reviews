@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/google",
+        "destination": "https://search.google.com/local/reviews?placeid=ChIJk61iH4FDkFQRCGR3Wjq7mFo",
+        "type": 301
+      },
+      {
+        "source": "/yelp",
+        "destination": "https://www.yelp.com/writeareview/biz/_pe6rLLijpxfCVS-XjhL0Q?return_url=%2Fbiz%2F_pe6rLLijpxfCVS-XjhL0Q&review_origin=biz_details_war_button",
+        "type": 301
+      }
+    ]
+  }
+}
