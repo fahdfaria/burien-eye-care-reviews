@@ -8,14 +8,19 @@
     ],
     "redirects": [
       {
-        "source": "/google",
+        "source": "/g",
         "destination": "https://search.google.com/local/reviews?placeid=ChIJk61iH4FDkFQRCGR3Wjq7mFo",
-        "type": 301
+        "type": 302
       },
       {
-        "source": "/yelp",
+        "source": "/y",
         "destination": "https://www.yelp.com/writeareview/biz/_pe6rLLijpxfCVS-XjhL0Q?return_url=%2Fbiz%2F_pe6rLLijpxfCVS-XjhL0Q&review_origin=biz_details_war_button",
-        "type": 301
+        "type": 302
+      },
+      {
+        "source": "/f",
+        "destination": "https://www.facebook.com/Burien-Medical-Eye-Care-571042599619943/reviews/?referrer=page_recommendations_see_all",
+        "type": 302
       }
     ]
   }
